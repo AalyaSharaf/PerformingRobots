@@ -42,11 +42,23 @@ And then grew to look something more like this:
 
 Next I made sure that the robot still ran smoothly with all the cardboard support it had. After a few test runs and cutting off cardboard when it was getting in the way of the robot running smoothly, I had a functioning robot with a functioning sequence.
 
+(add video)
+
 ##### Step 4:
 
 After I had a product that was properly functioning, I decided to mess around and tweak certain codes. At the start, the robot was simply running as such:
 
+````
+  digitalWrite (in1Pin, HIGH);
+  digitalWrite (in2Pin, LOW);
+````
+
 This meant that whenever the motors switched on and off, it was at a fixed speed. The speed that it was at was actually quite annoying since it was moving way too quick. As a result, I switched the pins the motors were connected on the Arduino to PWM pins so that I could control the speed. The code then looked similar to this:
+
+````
+  analogWrite (in1Pin, 150);
+  analogWrite (in2Pin, LOW);
+````
 
 That way I had control over the speed and I could put it at a pace that I found more interesting. 
 
