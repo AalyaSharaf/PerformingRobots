@@ -10,9 +10,9 @@ To me, a robot is simply defined as a machine that carries out, or has, certain 
 
 #### What is my Project?
 
-I want to start by saying that building a robot is something that I have never done previously so getting to finaly work on one this week was extremely exciting. That being said, my project is a very basic interpretation of what a robot is. I simply developed a robot using two motors and a set of wheels and I coded it to move in specific directions. The sequence I decided to implement was rather basic, where I had the robot change directions between moving forward or backwards every 1.5 seconds... I tried to work on something more complex but I unfortunately did not have the time over the weekend to complete it. Here is a video of the final process and below I will break down how I reached this point. 
+I want to start by saying that building a robot is something that I have never done previously so getting to finaly work on one this week was extremely exciting. That being said, my project is a very basic interpretation of what a robot is. I simply developed a robot using two motors and a set of wheels and I coded it to move in specific directions. The sequence I decided to implement was rather basic, where I had the robot change directions between moving forward or backwards every 1.5 seconds... I tried to work on something more complex but I unfortunately did not have the time over the weekend to complete it. 
+[Here](https://drive.google.com/file/d/19BiO08T4OELrG5__X_tIiPfssOuXIber/view?usp=sharing) is a video of the final process and below I will break down how I reached this point. 
 
-(insert Video)
 
 #### The Different Stages
 
@@ -42,7 +42,7 @@ And then grew to look something more like this:
 
 Next I made sure that the robot still ran smoothly with all the cardboard support it had. After a few test runs and cutting off cardboard when it was getting in the way of the robot running smoothly, I had a functioning robot with a functioning sequence.
 
-(add video)
+Find the video [here](https://drive.google.com/file/d/1UqLwDoWqjG7uStEcU3vwNZz3YsDPxlT5/view?usp=sharing).
 
 ##### Step 4:
 
@@ -66,4 +66,8 @@ That way I had control over the speed and I could put it at a pace that I found 
 
 There are actually quite a few issue I ran into when working on this project:
 
+1. The way I initially had the cardboard support was actually affecting the way my robot was moving. The cardboard was a bit too wide in certain areas which made it rub against the floor when it was running which affected it majorly. In addition to that, at some point the cardboard did not allow the wheels of the robot to touching the floor at all which was a problem... These were all simple issue fixed by cutting specific cardboard areas.
+2. The next thing had to do with the way I assembled the robot. There were different parts that went into the functioning of this robot, and the way in which their weight was distrivuted affected the way the robot functioned. Again, a simple issue that was fixed by distrivuting the weight in a way that made more sense and that allowed the robot to work more effeciently. 
+
+When it came to the actual coding and the technical aspects of the project, I did not run into any major issue. Just a few silly mistakes here and there. The main aspect I struggled with was the assembling of the robot, as I mentioned above, as it is something that I had not previously done, so trying to navigate that proved to be slightly different. Regardless, I overcame those struggles and was able to finally finish with the final product. 
 
