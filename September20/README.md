@@ -20,11 +20,11 @@ I want to start by saying that building a robot is something that I have never d
 
 When starting the project, I simply started by making sure the motors worked correctly, specifically with the wheels attached. First I worked on code for just one motor...
 
-(add pic)
+![](media/motor1.jpg)
 
 I then attached the second motor and made sure that the two motors worked properly when functioning simultaneously.
 
-(add pic)
+![](media/motor2.jpg)
 
 ##### Step 2:
 
@@ -32,11 +32,11 @@ Once I made sure the mechanics of the project worked correctly, I began to assem
 
 It started with simple support:
 
-(add pic)
+![](media/Support1.jpg) ![](media/Support2.jpg)
 
 And then grew to look something more like this:
 
-(add pic)
+![](media/Support3.jpg) ![](media/Support4.jpg) ![](media/Support5.jpg)
 
 ##### Step 3:
 
