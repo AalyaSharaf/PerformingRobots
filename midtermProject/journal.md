@@ -26,7 +26,7 @@ Today was an extremely productive day!!! I was able to see how each of the separ
 
 1. My plan was to have the neopixel be the face of my robot, so I wanted it to be as expressive as possible. I began today by working on creating functions that would contain the different emotions the robot would have... I only created two: a happy one, and a sad one. To test that the expressions would be expressed correctly if triggered by a certain event, I hooked up a button. I made it so when the button is pressed, the happy face is shown, otherwise it is the sad face that is shown. That was just to test that the transition between the two faces was smooth. 
 
-![](media.faceTest.gif)
+![](media/faceTest.gif)
 
 2. The second thing I did was wire up all the buttons I wanted to use. I decided to use 3 buttons that would control the robot: one to go forward, one to go left, and one to go right. At some point Initially, I wanted to have one button to control going forward and then a potentiometer to control going left and right, but I realized that I did not like the way the user would have to use the remote. It was a bit of a hassle and I did not feel it would make for the best user experience, so I scrapped the idea and added an extra 2 buttons instead. 
 
