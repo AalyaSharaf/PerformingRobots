@@ -49,7 +49,7 @@ Today was an extremely productive day!!! I was able to see how each of the separ
 
 9. One last thing I do want ot do is change the wiring of the neopixel. With all the wires intertwining in the arduino board (all of which ar ethe same color due to the limited stranded wires), I was starting to get confused. I had picked up the stranded black and red wires from the IM lab earlier in the week, and I decided to change them completely for the sake of my project being more structured and organized. Below is a clearer view of all the different components being used with each of the arduinos:
 
-![](media/arduino1.jpg)
+![](media/arudino1.jpg)
 
 ![](media/arduino2.jpg)
 
