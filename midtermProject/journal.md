@@ -30,7 +30,7 @@ Today was an extremely productive day!!! I was able to see how each of the separ
 
 2. The second thing I did was wire up all the buttons I wanted to use. I decided to use 3 buttons that would control the robot: one to go forward, one to go left, and one to go right. At some point Initially, I wanted to have one button to control going forward and then a potentiometer to control going left and right, but I realized that I did not like the way the user would have to use the remote. It was a bit of a hassle and I did not feel it would make for the best user experience, so I scrapped the idea and added an extra 2 buttons instead. 
 
-![](media/buttons.jpg)
+![]()
 
 3. I knew I wanted to use a radio connection between my remote and my robot. I was able to go over the example we used in class and I hooked up my radios accordingly. Thankfully, I did not run into any problems as I had done this once previously. Next, I connected 2 of the motors I had to an H-bridge. Again, this went over smoothly as I had done this before. Once that was done, I uploaded the code we used to class onto each of my arduinos and it was working great!
 
@@ -49,7 +49,7 @@ Today was an extremely productive day!!! I was able to see how each of the separ
 
 9. One last thing I do want ot do is change the wiring of the neopixel. With all the wires intertwining in the arduino board (all of which ar ethe same color due to the limited stranded wires), I was starting to get confused. I had picked up the stranded black and red wires from the IM lab earlier in the week, and I decided to change them completely for the sake of my project being more structured and organized. Below is a clearer view of all the different components being used with each of the arduinos:
 
-![](media/arudino1.jpg) ![](media/arduino2.jpg)
+![]() ![]()
 
 ## October 8, 2021
 
@@ -57,15 +57,15 @@ Today, I put aside the mechanical parts of my project, and started working on th
 
 I began by creating the robot's base. I attached the motors to the bottom of the cardboard piece. I then poked holes through the base for the wires to go through. I then proceeded to shorten the wires going into the H-bridge so that it would not get in the way. 
 
-![](robot-base.png)
+![]()
 
 I then placed all the mechanical aspects of the robot on the board to see how it would all fit onto it. 
 
-![](motor-wires.png)
+![]()
 
 Before I proceeded with building the rest of the robot, I decided to test out the motors to see if they could carry the components and whether the wight was distributed evenly. I found that the motors were working well, but the way in which I coded the wheels (or rather the way that I attached it), made it so the wheels were moving towards each other, meaning they did not move from their spot. Fortunately, it was a fairly easy fix. As soon as I adjusted the code, I proceeded with the assembling of my robot. 
 
-![](robot-malfunction.gif)
+![]()
 
 Next, I worked on the walls of the robot. Before I actually glued the walls, I tried to see where would be the most strategic way to palce them. I did not necessarily want a box shape. I knew I wanted some parts to be exposed, not just for aesthetic reasons, but because I wanted to have easy access to the batteries so I could attach attache them to the H-bridge. I also made sure to cut out holes for certain wires (for example, the wire going that goes into the arduino). After triple chekcing that every wire was going into the right pin, and that everything was running smoothly, I added the roof. 
 
