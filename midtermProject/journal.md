@@ -51,4 +51,30 @@ Today was an extremely productive day!!! I was able to see how each of the separ
 
 ![](media/arudino1.jpg) ![](media/arduino2.jpg)
 
+## October 8, 2021
 
+Today, I put aside the mechanical parts of my project, and started working on the physical body of the robot. In my time back home in Dubai, I found out that my younger brothers have worked on many arts & crafts project in the past week, so I was able to use whatever was leftover for the building of my own project. 
+
+I began by creating the robot's base. I attached the motors to the bottom of the cardboard piece. I then poked holes through the base for the wires to go through. I then proceeded to shorten the wires going into the H-bridge so that it would not get in the way. 
+
+![](robot-base.png)
+
+I then placed all the mechanical aspects of the robot on the board to see how it would all fit onto it. 
+
+![](motor-wires.png)
+
+Before I proceeded with building the rest of the robot, I decided to test out the motors to see if they could carry the components and whether the wight was distributed evenly. I found that the motors were working well, but the way in which I coded the wheels (or rather the way that I attached it), made it so the wheels were moving towards each other, meaning they did not move from their spot. Fortunately, it was a fairly easy fix. As soon as I adjusted the code, I proceeded with the assembling of my robot. 
+
+![](robot-malfunction.gif)
+
+Next, I worked on the walls of the robot. Before I actually glued the walls, I tried to see where would be the most strategic way to palce them. I did not necessarily want a box shape. I knew I wanted some parts to be exposed, not just for aesthetic reasons, but because I wanted to have easy access to the batteries so I could attach attache them to the H-bridge. I also made sure to cut out holes for certain wires (for example, the wire going that goes into the arduino). After triple chekcing that every wire was going into the right pin, and that everything was running smoothly, I added the roof. 
+
+![]() ![]() ![]()
+
+For the top of the box, there were a few things I wanted to do. First, I needed to attach the "head" of my robot. I also needed to secure the powerboost of the robot. I began by placing all the wires powering the robot into a cardboard box I found lying around the house. I cut slits into the box so that the wires could still have a way to the "lower level" of the robot. I then used double sided tape to secure whatever wires that needed to be exposed to the top of the board. 
+
+![]() ![]()
+
+Next, I moved onto my robot's face. I found another one of those boxes lyring around and covered it in aluminium foil and cut a hole for the wires of the neopixel. Then I took water bottle caps from our recycling bin and used it as a neck... Finally, I added two colored woodedn stick for ears(again, leftovers form my brothers' projects). 
+
+![]() ![]() ![]()
