@@ -82,6 +82,8 @@ Next, I moved onto my robot's face. I found another one of those boxes lyring ar
 ## October 9, 2021
 Today I made some slight changes to the way my neopixel worked. This idea is one that only came to me recently, but I decided my robot is going to be a dog named Rex, and I wanted the neopixel to show that by displaying the text "I am Rex, Woof Woof!" (because why not). First, I wired a different colored button (from our Intro to IM kit), and I coded it so that it would trigger a text sequence on the neopixel. This process was fairly simple when doing it alone (isolated from all the radio connections), but it got a little more complicated when implementing it into my actual code. It's just because the whole concept of radio communication was a bit confusing to me, but I am slowly but surely getting the hang of it. After playing around with different lines of code and googled a WHOLE lot, I was able to figure it out!
 
+[Here](https://drive.google.com/file/d/1yMUOKm56fiDgNrZzzuC_46rgvyFP88Nc/view?usp=sharing) is a video of the scrolling text that is triggered by the red button!
+
 ![](media/rex_button.jpg) ![](media/I_am_Rex_Text.gif)
 
 ## October 10 & 11, 2021
