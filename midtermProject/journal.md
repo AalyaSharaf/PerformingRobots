@@ -65,7 +65,7 @@ I then placed all the mechanical aspects of the robot on the board to see how it
 
 Before I proceeded with building the rest of the robot, I decided to test out the motors to see if they could carry the components and whether the wight was distributed evenly. I found that the motors were working well, but the way in which I coded the wheels (or rather the way that I attached it), made it so the wheels were moving towards each other, meaning they did not move from their spot. Fortunately, it was a fairly easy fix. 
 
-![]()
+![](media/motor_error.gif)
 
 Next, I worked on the walls of the robot. Before I actually glued the walls, I tried to see where would be the most strategic way to place them. I did not necessarily want a box shape. I knew I wanted some parts to be exposed, not just for aesthetic reasons, but because I wanted to have easy access to the batteries so I could attach attache them to the H-bridge. I also made sure to cut out holes for certain wires (for example, the wire going that goes into the arduino). After triple chekcing that every wire was going into the right pin, and that everything was running smoothly, I added the roof. 
 
