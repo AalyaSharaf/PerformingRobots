@@ -88,6 +88,4 @@ Today I made some slight changes to the way my neopixel worked. This idea is one
 
 The past two days, I worked on finalizing my project. That included adding comments in my code, adding some final touches to the robot's appearance, and making some slight changes to the code to better improve the robot's movement.
 
-Here are some gifs of the final product!!
-
-![](media/final_robot1.gif) ![](media/final_robot2.gif)
+Check the [final documentation](https://github.com/AalyaSharaf/PerformingRobots/tree/main/midtermProject) for videos of the final robot!
