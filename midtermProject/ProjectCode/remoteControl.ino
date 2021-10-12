@@ -38,7 +38,7 @@ const byte address[6] = "00001";
 const int leftPin = 2;
 const int rightPin = 3;
 const int fwdPin = 8;
-const int rexPin = 7;
+const int rexPin = 7; //triggers the scrolling text sequence on my neopixel
 
 void setup() {
   Serial.begin(115200);
@@ -51,7 +51,7 @@ void setup() {
 }
 void loop() {
 
-int rex = digitalRead(rexPin) << 3;
+int rex = digitalRead(rexPin) << 3; 
 int left = digitalRead(leftPin) << 2;
 int fwd = digitalRead(fwdPin) << 1;
 int right = digitalRead(rightPin) << 0;
