@@ -26,6 +26,22 @@ Next, was making sure that all those isolated pieces, worked well collectively. 
 
 Here is an example of the code being used in this project:
 
+```
+
+if (!radio.begin()) {
+    Serial.println("radio  initialization failed");
+    while (1)
+      ;
+  } else {
+    Serial.println("radio successfully initialized");
+  }
+  radio.openReadingPipe(0, address);
+  radio.setPALevel(RF24_PA_MIN);  
+  radio.startListening();  
+  
+```
+
+
 ### Stage 3: The Assembly
 
 Finally, it was time to assemble Rex. I had all the components working but now I needed a more physical and structured manifestation of Rex. 
