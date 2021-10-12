@@ -30,7 +30,7 @@ Today was an extremely productive day!!! I was able to see how each of the separ
 
 2. The second thing I did was wire up all the buttons I wanted to use. I decided to use 3 buttons that would control the robot: one to go forward, one to go left, and one to go right. At some point Initially, I wanted to have one button to control going forward and then a potentiometer to control going left and right, but I realized that I did not like the way the user would have to use the remote. It was a bit of a hassle and I did not feel it would make for the best user experience, so I scrapped the idea and added an extra 2 buttons instead. 
 
-![](buttons)
+![](media/buttons.jpg)
 
 3. I knew I wanted to use a radio connection between my remote and my robot. I was able to go over the example we used in class and I hooked up my radios accordingly. Thankfully, I did not run into any problems as I had done this once previously. Next, I connected 2 of the motors I had to an H-bridge. Again, this went over smoothly as I had done this before. Once that was done, I uploaded the code we used to class onto each of my arduinos and it was working great!
 
@@ -49,7 +49,7 @@ Today was an extremely productive day!!! I was able to see how each of the separ
 
 9. One last thing I do want ot do is change the wiring of the neopixel. With all the wires intertwining in the arduino board (all of which ar ethe same color due to the limited stranded wires), I was starting to get confused. I had picked up the stranded black and red wires from the IM lab earlier in the week, and I decided to change them completely for the sake of my project being more structured and organized. Below is a clearer view of all the different components being used with each of the arduinos:
 
-![]() ![]()
+![](media/remote_control.jpg) ![](media/motor_components.jpg)
 
 ## October 8, 2021
 
@@ -57,24 +57,37 @@ Today, I put aside the mechanical parts of my project, and started working on th
 
 I began by creating the robot's base. I attached the motors to the bottom of the cardboard piece. I then poked holes through the base for the wires to go through. I then proceeded to shorten the wires going into the H-bridge so that it would not get in the way. 
 
-![]()
+![](media/robot_base.jpg)
 
 I then placed all the mechanical aspects of the robot on the board to see how it would all fit onto it. 
 
+![](media/assembly1.jpg)
+
+Before I proceeded with building the rest of the robot, I decided to test out the motors to see if they could carry the components and whether the wight was distributed evenly. I found that the motors were working well, but the way in which I coded the wheels (or rather the way that I attached it), made it so the wheels were moving towards each other, meaning they did not move from their spot. Fortunately, it was a fairly easy fix. 
+
 ![]()
 
-Before I proceeded with building the rest of the robot, I decided to test out the motors to see if they could carry the components and whether the wight was distributed evenly. I found that the motors were working well, but the way in which I coded the wheels (or rather the way that I attached it), made it so the wheels were moving towards each other, meaning they did not move from their spot. Fortunately, it was a fairly easy fix. As soon as I adjusted the code, I proceeded with the assembling of my robot. 
+Next, I worked on the walls of the robot. Before I actually glued the walls, I tried to see where would be the most strategic way to place them. I did not necessarily want a box shape. I knew I wanted some parts to be exposed, not just for aesthetic reasons, but because I wanted to have easy access to the batteries so I could attach attache them to the H-bridge. I also made sure to cut out holes for certain wires (for example, the wire going that goes into the arduino). After triple chekcing that every wire was going into the right pin, and that everything was running smoothly, I added the roof. 
 
-![]()
-
-Next, I worked on the walls of the robot. Before I actually glued the walls, I tried to see where would be the most strategic way to palce them. I did not necessarily want a box shape. I knew I wanted some parts to be exposed, not just for aesthetic reasons, but because I wanted to have easy access to the batteries so I could attach attache them to the H-bridge. I also made sure to cut out holes for certain wires (for example, the wire going that goes into the arduino). After triple chekcing that every wire was going into the right pin, and that everything was running smoothly, I added the roof. 
-
-![]() ![]() ![]()
+![](media/assembly2.jpg) ![](media/assembly3.jpg) ![](media/assembly4.jpg) ![](media/assembly5.jpg)
 
 For the top of the box, there were a few things I wanted to do. First, I needed to attach the "head" of my robot. I also needed to secure the powerboost of the robot. I began by placing all the wires powering the robot into a cardboard box I found lying around the house. I cut slits into the box so that the wires could still have a way to the "lower level" of the robot. I then used double sided tape to secure whatever wires that needed to be exposed to the top of the board. 
 
-![]() ![]()
+![](media/assembly6.jpg) ![](media/power_box.jpg)
 
 Next, I moved onto my robot's face. I found another one of those boxes lyring around and covered it in aluminium foil and cut a hole for the wires of the neopixel. Then I took water bottle caps from our recycling bin and used it as a neck... Finally, I added two colored woodedn stick for ears(again, leftovers form my brothers' projects). 
 
-![]() ![]() ![]()
+![](media/robot_head.jpg) ![](media/robot_head1.jpg)
+
+## October 9, 2021
+Today I made some slight changes to the way my neopixel worked. This idea is one that only came to me recently, but I decided my robot is going to be a dog named Rex, and I wanted the neopixel to show that by displaying the text "I am Rex, Woof Woof!" (because why not). First, I wired a different colored button (from our Intro to IM kit), and I coded it so that it would trigger a text sequence on the neopixel. This process was fairly simple when doing it alone (isolated from all the radio connections), but it got a little more complicated when implementing it into my actual code. It's just because the whole concept of radio communication was a bit confusing to me, but I am slowly but surely getting the hang of it. After playing around with different lines of code and googled a WHOLE lot, I was able to figure it out!
+
+![](media/rex_button.jpg) ![](media/I_am_Rex_Text.gif)
+
+## October 10 & 11, 2021
+
+The past two days, I worked on finalizing my project. That included adding comments in my code, adding some final touches to the robot's appearance, and making some slight changes to the code to better improve the robot's movement.
+
+Here are some gifs of the final product!!
+
+![](media/final_robot1.gif) ![](media/final_robot2.gif)
