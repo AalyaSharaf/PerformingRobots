@@ -16,6 +16,8 @@ To further explain how Rex came to be, I will break down the building process
 
 To start, I began on working the mechanical parts of my project: I figured out what parts I wanted and I wired up everything I needed to. Basically, I just made sure all my components were working well. I did this by separately testing each component with specific Arduino code examples... This was just so I could avoid furhter complications or errors (that come as a result of faulty hardware) in the future.
 
+![](media/faceTest.gif) ![](robotTrial.gif)
+
 ### Stage 2: The Code
 
 Next, was making sure that all those isolated pieces, worked well collectively. This part took more time as figuring out what code went where was a bit more complicated.
