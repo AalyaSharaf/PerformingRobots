@@ -20,9 +20,13 @@ To start, I began on working the mechanical parts of my project: I figured out w
 
 Next, was making sure that all those isolated pieces, worked well collectively. This part took more time as figuring out what code went where was a bit more complicated.
 
+Here is an example of the code being used in this project:
+
 ### Stage 3: The Assembly
 
 Finally, it was time to assemble Rex. I had all the components working but now I needed a more physical and structured manifestation of Rex. 
+
+![](media/assembly3.jpg) ![](media/assembly4.jpg) ![](media/assembly5.jpg)
 
 ## Struggles & Difficulties
 1. idjsfjds
