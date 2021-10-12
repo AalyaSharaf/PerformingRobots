@@ -35,6 +35,7 @@ RF24 radio(CEPIN, CSNPIN);  // CE, CSN
 #define LED_PIN    3
 #define LED_COUNT 64
 
+// this is for controlling singular LEDs. Being used to create faces on the neopixel
 Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 
 #include <Adafruit_GFX.h>
@@ -46,6 +47,7 @@ Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 
 #define PIN 3
 
+// this is for the scrolling text sequence I have set up on my neopixel screen... the one being triggered by the "rex" button
 Adafruit_NeoMatrix matrix = Adafruit_NeoMatrix(5, 8, PIN,
                             NEO_MATRIX_TOP     + NEO_MATRIX_RIGHT +
                             NEO_MATRIX_COLUMNS + NEO_MATRIX_PROGRESSIVE,
@@ -62,17 +64,19 @@ const uint16_t colors[] = {
 const byte address[6] = "00001";
 
 // Motor controller pins
+//For motors connected to 1st H-bridge
 const int rightDirPin1 = 4;
 const int rightPWMPin1 = 5;
 const int leftDirPin1 = 7;
 const int leftPWMPin1 = 6;
 
+//For motors connected to 2nd H-bridge
 const int rightDirPin2 = A0;
 const int rightPWMPin2 = A1;
 const int leftDirPin2 = A2;
 const int leftPWMPin2 = A3;
 
-
+// variable for neopixel matrix sequence
 int x    = matrix.width();
 int pass = 0;
 
@@ -87,11 +91,11 @@ void setup() {
 
 
   Serial.begin(115200);
-
-  strip.begin();
+ 
+  strip.begin(); //for neopixel "faces"
   strip.show();
 
-  matrix.begin();
+  matrix.begin(); //for neopixel scrolling text
   matrix.setTextWrap(false);
   matrix.setBrightness(40);
   matrix.setTextColor(colors[0]);
@@ -132,7 +136,8 @@ void loop() {
         digitalWrite(rightPWMPin1, LOW);
         digitalWrite(rightDirPin2, LOW);
         digitalWrite(rightPWMPin2, HIGH);
-
+         
+        //triggering face on neopixel when the buttons are pressed
         disp_Clear();
         dogFace();
         break;
@@ -164,6 +169,7 @@ void loop() {
 
       case 0b00001000:
       Serial.println("Rex");
+        //bringing in the scrolling text when the "rex" button is pressed
         disp_Clear();
         rex();
         break;
@@ -199,6 +205,7 @@ void stop() {
 }
 
 int dogFace () {
+  //the specific LEDs that need to be turned on to create a face
   strip.setPixelColor(9, 0, 0, 255);
   strip.setPixelColor(10, 0, 0, 255);
   strip.setPixelColor(13, 0, 0, 255);
@@ -220,19 +227,22 @@ int dogFace () {
 }
 
 int rex () {
+ //the code responsible for the scrolling text
   matrix.fillScreen(0);
   matrix.setCursor(x, 0);
-  matrix.print(F("Hi I am Rex Woof Woof!"));
+  matrix.print(F("Hi I am Rex Woof Woof!")); //the text
   if (--x < -150 ) {
     x = matrix.width();
     if (++pass >= 3) pass = 0;
     matrix.setTextColor(colors[pass]);
   }
-  matrix.show();
+  matrix.show(); 
   delay(100);
 }
 
 void disp_Clear() {
+  //very basic code I am using to clear the neopixel screen. That way the LEDs being triggered when the robot moves and the LEDs being triggered with the
+  //scrolling text do not overlap or interfere with each other. 
   for (int ii = 0; ii < 65; ++ii) {
     strip.setPixelColor(ii, 0, 0, 0);
   }
