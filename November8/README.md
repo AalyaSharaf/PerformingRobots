@@ -15,5 +15,5 @@
 
 To be completely honest, I could not really come up with a specific play, or scene from a play, that I particularly gravitated to, so I decided to come up with my own... The idea I came up with, is one of a musical robot. The plot would include something along the lines of this robot trying to make it in the music world, but not bring given the attention that it deserves, simply because it is a robot. The play will then navigate through those challenges with the robot, as it tries to fulfill its one and oly dream of being a superstar. When it comes to actualy characteristics of the robot, I imagine it to be one with strong performance qualities. This means that it will not only be able to play instruments, or sing songs, but it will also know how to dance and work the crowd. These are just a few basic and starter idea that came to mind, and hopefully I will be able to elaborate on them a bit more later on! 
 
-![](media/robotSketch.jpeg)
+![](robotSketch.jpeg)
 
